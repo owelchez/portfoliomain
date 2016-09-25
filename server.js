@@ -20,7 +20,7 @@ app.use(express.static('./public'));
 
 
 app.get('/', function(req, res){
-  res.sendFile('index.html');
+  res.sendFile('./public/index.html');
 })
 
 
